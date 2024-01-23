@@ -1,0 +1,59 @@
+.container{
+  width: 100%;
+  /* align-items: center; */
+  justify-content: center;
+  border: 2px #04AA6D;
+  margin: 2vw;
+  padding: 2vw;
+}
+.box-container{
+  /* display: flex; */
+}
+
+.download-button button{
+  /* flex-direction: row-reverse; */
+  display: inline-block;
+  padding: 0px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(249, 251, 250);
+  border: 1px solid rgb(137, 151, 155);
+  box-shadow: rgb(6 22 33 / 30%) 0px 1px 2px;
+  color: rgb(87, 143, 171);
+  font-size: 16px;
+  font-weight: 500;
+  height: 36px;
+  transition: all 150ms ease-in-out 0s;
+  :hover {
+      color: rgb(61, 79, 88);
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(93, 108, 116);
+      box-shadow: rgb(0 0 0 / 30%) 0px 4px 4px, rgb(231 238 236) 0px 0px 0px 3px;
+  }
+}
+
+
+.table-contact{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  justify-content: center;
+}
+
+.table-contact td, .table-contact th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-contact tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-contact tr:hover {background-color: #ddd;}
+
+.table-contact th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
